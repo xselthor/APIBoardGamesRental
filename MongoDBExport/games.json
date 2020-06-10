@@ -1,0 +1,69 @@
+[{
+  "_id": {
+    "$oid": "5ede52df2a7ec62934a56ba9"
+  },
+  "name": "Magia i Miecz (4.5)",
+  "briefdescribe": "Odkrywaj świat Talizman w tej doskonałej grze przygodowej!",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Essen_2007_%28a%29_411.jpg/1280px-Essen_2007_%28a%29_411.jpg",
+  "minPlayers": 2,
+  "maxPlayers": 6,
+  "playingTime": 90,
+  "yearPublished": 2008,
+  "Rating": 10,
+  "type": "Przygodowa",
+  "itemtype": "gra planszowa",
+  "ilosc": 5,
+  "cena": 10,
+  "describe": "Talisman: Magia i Miecz (ang. Talisman – oryg. talizman), pierwotnie wydawana w Polsce jako Magia i Miecz – gra planszowa fantasy wydana przez brytyjską firmę Games Workshop, która w latach 80. zdobyła dużą popularność i została przetłumaczona na wiele języków, w tym polski (polskim wydawcą gry była Sfera, obecnie Galakta). W 1992 uhonorowana tytułem Gra Roku."
+},{
+  "_id": {
+    "$oid": "5edf4d1f175dc6278c0fd0c5"
+  },
+  "name": "Space Hulk 4ed",
+  "briefdescribe": "Taktyczna gra w realiach Warhammera 40k",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Games_Day_2010_sh.jpg/300px-Games_Day_2010_sh.jpg",
+  "minPlayers": 2,
+  "maxPlayers": 2,
+  "playingTime": 90,
+  "yearPublished": 2014,
+  "Rating": 10,
+  "type": "Taktyczna",
+  "itemtype": "gra planszowa",
+  "ilosc": 2,
+  "cena": 10,
+  "describe": "Space Hulk is a board game for two players by Games Workshop. It was released in 1989. The game is set in the fictional universe of Warhammer 40,000. In the game, a \"space hulk\" is a mass of ancient, derelict space ships, asteroids, and other assorted space debris. One player takes the role of Space Marine Terminators, superhuman elite soldiers who have been sent to investigate such a space hulk. The other player takes the role of Tyranid Genestealers, an aggressive alien species which have made their home aboard such masses. "
+},{
+  "_id": {
+    "$oid": "5ee0b1d269b23b2a1c69dc5c"
+  },
+  "name": "Osadnicy z Catanu",
+  "briefdescribe": "wieloosobowa gra planszowa wymyślona przez Klausa Teubera",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Nepomuk_280_-_Osadn%C3%ADci_z_Katanu.jpg/240px-Nepomuk_280_-_Osadn%C3%ADci_z_Katanu.jpg",
+  "minPlayers": 3,
+  "maxPlayers": 4,
+  "playingTime": 60,
+  "yearPublished": 1995,
+  "Rating": 5,
+  "type": "gra planszowa",
+  "itemtype": "ekonomiczna",
+  "ilosc": 1,
+  "cena": 10,
+  "describe": "wieloosobowa gra planszowa wymyślona przez Klausa Teubera, wydana po raz pierwszy w 1995 przez niemieckie wydawnictwo Franckh-Kosmos-Verlag pod nazwą Die Siedler von Catan.  Podstawowa wersja gry jest przeznaczona dla 3-4 graczy, ale istnieją rozszerzenia pozwalające zagrać w 5 lub 6 osób, a gracze opracowali własne zasady dla gry dwuosobowej. "
+},{
+  "_id": {
+    "$oid": "5ee0b37969b23b2a1c69dc5d"
+  },
+  "name": "Chaos w Starym Świecie",
+  "briefdescribe": "Strategia w świecie Warhammer Fantasy",
+  "image": "https://cf.geekdo-images.com/itemrep/img/N0lrphD7hH1mNNDlUCtxJuIir0E=/fit-in/246x300/pic1318481.jpg",
+  "minPlayers": 3,
+  "maxPlayers": 4,
+  "playingTime": 120,
+  "yearPublished": 2009,
+  "Rating": 10,
+  "type": "gra planszowa",
+  "itemtype": "strategiczna",
+  "ilosc": 2,
+  "cena": 10,
+  "describe": "W grze Chaos w Starym Świecie, każdy z graczy wcieli się w rolę jednego z Panów Chaosu. Charakterystyczne zdolności każdego z bogów i legionu jego wyznawców dają graczom unikalne sposoby na sianie zniszczenia i panowanie nad Starym Światem. W czasie, gdy potęgi Chaosu ścierają się ze sobą, rujnując ziemie ludzi i siejąc w nich spustoszenie, Stary Świat nie poddaje się. Walczy z całych sił i stawia opór rękami swoich wiernych bohaterów, by wygnać złych bogów z powrotem do ich Domeny Chaosu… chociaż na chwilę."
+}]
