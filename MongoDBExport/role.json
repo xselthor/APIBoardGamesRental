@@ -1,0 +1,6 @@
+{
+    "_id": {
+        "$oid": "5ee21cee7d33802b046d9dc0"
+    },
+    "role": ["admin", "pracownik", "klient"]
+}
