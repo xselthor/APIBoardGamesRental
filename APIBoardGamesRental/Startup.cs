@@ -30,6 +30,7 @@ namespace APIBoardGamesRental
         public void ConfigureServices(IServiceCollection services)
         {
             // requires using Microsoft.Extensions.Options
+
             services.Configure<BGamesDatabaseSettings>(
                 Configuration.GetSection(nameof(BGamesDatabaseSettings)));
 
@@ -37,6 +38,8 @@ namespace APIBoardGamesRental
                 sp.GetRequiredService<IOptions<BGamesDatabaseSettings>>().Value);
 
             services.AddSingleton<BGamesService>();
+            services.AddSingleton<BUsersService>();
+            services.AddSingleton<BRoleService>();
 
             services.AddControllers()
                 .AddNewtonsoftJson(options => options.UseMemberCasing());

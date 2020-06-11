@@ -26,6 +26,7 @@ namespace APIBoardGamesRental.Controllers
             _bgameService = bgameService;
         }
 
+
         [HttpGet]
         public ActionResult<List<BGames>> Get() =>
             _bgameService.Get();
