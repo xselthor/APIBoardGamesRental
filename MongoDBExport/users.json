@@ -1,0 +1,16 @@
+{
+    "_id": {
+        "$oid": "5ee1fbf17d33802b046d9dbf"
+    },
+    "login": "admin",
+    "firstname": "admin",
+    "lastname": "admin",
+    "password": "AQAAAAEAACcQAAAAENR/Lce++TBOCzLlpMgb0Y5VJPlg9ajyJCYpe0QWZCmIQHZsB/Skb41p9uN68utQBg==",
+    "email": "",
+    "phone": "",
+    "ulica": "",
+    "nrdomu": "",
+    "miasto": "",
+    "kodpocztowy": "",
+    "role": "admin"
+}
