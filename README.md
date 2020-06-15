@@ -11,4 +11,4 @@ API wypozyczalni gier planszowych. Praca w trakcie.
 <li>Swagger działa pod adresserwera:port/swagger/</li>
 </ul>
 
-API działa z klientem <a href="https://github.com/xselthor/APIClientBoardGamesRental>APIClientBoardGamesRental</a>
+API działa z klientem <a href="https://github.com/xselthor/APIClientBoardGamesRental">APIClientBoardGamesRental</a>
