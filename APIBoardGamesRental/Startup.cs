@@ -39,7 +39,7 @@ namespace APIBoardGamesRental
 
             services.AddSingleton<BGamesService>();
             services.AddSingleton<BUnitService>();
-            //services.AddSingleton<BRoleService>();
+            services.AddSingleton<BBasketService>();
 
             services.AddControllers()
                 .AddNewtonsoftJson(options => options.UseMemberCasing());

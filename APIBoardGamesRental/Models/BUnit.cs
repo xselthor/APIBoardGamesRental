@@ -17,6 +17,6 @@ namespace APIBoardGamesRental.Models
         public string loaned { get; set; }
         public string dateofrent { get; set; }
         public string barcode { get; set; }
-        public string describtion { get; set; }
+        public string description { get; set; }
     }
 }
