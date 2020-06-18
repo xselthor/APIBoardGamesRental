@@ -38,8 +38,8 @@ namespace APIBoardGamesRental
                 sp.GetRequiredService<IOptions<BGamesDatabaseSettings>>().Value);
 
             services.AddSingleton<BGamesService>();
-            services.AddSingleton<BUsersService>();
-            services.AddSingleton<BRoleService>();
+            services.AddSingleton<BUnitService>();
+            //services.AddSingleton<BRoleService>();
 
             services.AddControllers()
                 .AddNewtonsoftJson(options => options.UseMemberCasing());

@@ -7,11 +7,16 @@ using System.Threading.Tasks;
 
 namespace APIBoardGamesRental.Models
 {
-    public class BRole
+    public class BUnit
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string oid { get; set; }
-        public string[] role { get; set; }
+        public string gameid { get; set; }
+        public string dateadded { get; set; }
+        public string loaned { get; set; }
+        public string dateofrent { get; set; }
+        public string barcode { get; set; }
+        public string describtion { get; set; }
     }
 }
