@@ -36,5 +36,47 @@ namespace APIBoardGamesRental.Controllers
 
             return bunit;
         }
+
+        [HttpPost]
+        public ActionResult<BUnit> Create(BUnit bunit)
+        {
+            _bunitService.Create(bunit);
+
+            return CreatedAtRoute("GetUnit", new { id = bunit.oid.ToString() }, bunit);
+        }
+
+        [HttpPut("{id:length(24)}")]
+        public IActionResult Update(string id, BUnit bunitIn)
+        {
+            var gdata = Newtonsoft.Json.JsonConvert.SerializeObject(bunitIn);
+            Console.WriteLine(gdata);
+
+            var bunit = _bunitService.Get(id);
+
+            if (bunit == null)
+            {
+                return NotFound();
+            }
+
+            _bunitService.Update(id, bunitIn);
+
+
+            return NoContent();
+        }
+
+        [HttpDelete("{id:length(24)}")]
+        public IActionResult Delete(string id)
+        {
+            var bunit = _bunitService.Get(id);
+
+            if (bunit == null)
+            {
+                return NotFound();
+            }
+
+            _bunitService.Remove(bunit.oid);
+
+            return NoContent();
+        }
     }
 }

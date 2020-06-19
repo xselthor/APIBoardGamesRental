@@ -36,5 +36,47 @@ namespace APIBoardGamesRental.Controllers
 
             return bbasket;
         }
+
+        [HttpPost]
+        public ActionResult<BBasket> Create(BBasket bbasket)
+        {
+            _bbasketService.Create(bbasket);
+
+            return CreatedAtRoute("GetBasket", new { id = bbasket.oid.ToString() }, bbasket);
+        }
+
+        [HttpPut("{id:length(24)}")]
+        public IActionResult Update(string id, BBasket bbasketIn)
+        {
+            var gdata = Newtonsoft.Json.JsonConvert.SerializeObject(bbasketIn);
+            Console.WriteLine(gdata);
+
+            var bbasket = _bbasketService.Get(id);
+
+            if (bbasket == null)
+            {
+                return NotFound();
+            }
+
+            _bbasketService.Update(id, bbasketIn);
+
+
+            return NoContent();
+        }
+
+        [HttpDelete("{id:length(24)}")]
+        public IActionResult Delete(string id)
+        {
+            var bbasket = _bbasketService.Get(id);
+
+            if (bbasket == null)
+            {
+                return NotFound();
+            }
+
+            _bbasketService.Remove(bbasket.oid);
+
+            return NoContent();
+        }
     }
 }

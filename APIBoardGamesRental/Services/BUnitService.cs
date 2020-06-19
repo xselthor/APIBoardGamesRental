@@ -30,7 +30,7 @@ namespace APIBoardGamesRental.Services
             _bunit.InsertOne(bunit);
             return bunit;
         }
-        //        public void Update(string id, BGames bookIn) =>
+
         public void Update(string id, BUnit unitIn) =>
             _bunit.ReplaceOne(unit => unit.oid == id, unitIn);
 
