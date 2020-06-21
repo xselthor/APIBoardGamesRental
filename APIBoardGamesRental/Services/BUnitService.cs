@@ -1,4 +1,5 @@
 ﻿using APIBoardGamesRental.Models;
+using Microsoft.AspNetCore.Mvc;
 using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
@@ -21,6 +22,9 @@ namespace APIBoardGamesRental.Services
 
         public List<BUnit> Get() =>
             _bunit.Find(unit => true).ToList();
+
+        public List<BUnit> GetUnits(string gameid) =>
+            _bunit.Find(unit => unit.gameid == gameid).ToList();
 
         public BUnit Get(string id) =>
             _bunit.Find<BUnit>(unit => unit.oid == id).FirstOrDefault();

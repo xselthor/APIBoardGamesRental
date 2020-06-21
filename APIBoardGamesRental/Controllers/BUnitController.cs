@@ -24,6 +24,11 @@ namespace APIBoardGamesRental.Controllers
         public ActionResult<List<BUnit>> Get() =>
             _bunitService.Get();
 
+        [Route("lunits/{gameid}")]
+        [HttpGet]
+        public ActionResult<List<BUnit>> GetUnits(string gameid) =>
+            _bunitService.GetUnits(gameid);
+
         [HttpGet("{id:length(24)}", Name = "GetBUnit")]
         public ActionResult<BUnit> Get(string id)
         {

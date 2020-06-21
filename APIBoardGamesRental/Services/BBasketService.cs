@@ -22,6 +22,9 @@ namespace APIBoardGamesRental.Services
         public List<BBasket> Get() =>
             _bbasket.Find(basket => true).ToList();
 
+        public List<BBasket> GetBasket(string username) =>
+            _bbasket.Find(basket => basket.username == username).ToList();
+
         public BBasket Get(string id) =>
             _bbasket.Find<BBasket>(basket => basket.oid == id).FirstOrDefault();
 

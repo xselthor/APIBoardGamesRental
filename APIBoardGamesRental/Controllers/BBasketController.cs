@@ -24,6 +24,11 @@ namespace APIBoardGamesRental.Controllers
         public ActionResult<List<BBasket>> Get() =>
             _bbasketService.Get();
 
+        [Route("basket/{username}")]
+        [HttpGet]
+        public ActionResult<List<BBasket>> GetBasket(string username) =>
+            _bbasketService.GetBasket(username);
+
         [HttpGet("{id:length(24)}", Name = "GetBBasket")]
         public ActionResult<BBasket> Get(string id)
         {
